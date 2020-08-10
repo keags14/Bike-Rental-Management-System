@@ -31,12 +31,26 @@
     <div class="container">
         <div class="text-content">
             <h2 class="headline">Company History</h2>
-            <p>In 2006, Bike Rental Management System founder <a href="#employees-henrytwill">Keagan Gonsalves</a> set out to create a system that would be <em>environmentally friendly</em> and backed by scientific and <em>performance data</em> – to provide a strong basis of <em>trust and accountability</em>.</p>
-            <p>His quest began while working for his <em>first technical support role</em>, after graduating from <em>University of Hertfordshire</em> that left him with some knowledge and expertise required to develop his vision of developing a bike rental system which supports the environment and supports recycling. He yearned for <em>simple and natural ingredients</em>, in their purest form, instead of labels with <em>lengthy chemical names</em> and disclaimers. When no products lived up to his strict requirements, Henry set his sights on <em>creating products</em> that catered to his own vision.</p>
-            <p>Today that vision has become Bike Rental Management System…offering a variety of <a href="#products">bicycle, bike and e-bikes</a>. At the foundation of Bike Rental Management System are products backed by scientific and performance data.</p>
+            <p>In 2006, Bike Rental Management System founder <a href="#employees-keagangonsalves">Keagan Gonsalves</a> set 
+                out to create a system that would be <em>environmentally friendly</em> and backed by scientific and 
+                <em>performance data</em> – to provide a strong basis of <em>trust and accountability</em>.</p>
+            <p>His quest began while working for his <em>first technical support role</em>, after graduating 
+                from <em>University of Hertfordshire</em> that left him with some knowledge and expertise required 
+                to develop his vision of developing a bike rental system which supports the environment and supports 
+                recycling. He yearned for <em>simple and natural ingredients</em>, in their purest form, instead of 
+                labels with <em>lengthy chemical names</em> and disclaimers. When no products lived up to his strict 
+                requirements, Henry set his sights on <em>creating products</em> that catered to his own vision.
+            </p>
+            <p>Today that vision has become Bike Rental Management System…offering a variety of 
+                <a href="#products">bicycle, bike and e-bikes</a>. At the foundation of Bike Rental Management 
+                System are products backed by scientific and performance data.
+            </p>
         </div>
-    </div><!-- container text -->
-</section><!-- #history -->
+    </div>
+    <!-- container text -->
+</section>
+
+<!-- #history -->
 
 <section id="guarantee" class="section">
     <header class="imageheader"></header>
@@ -58,8 +72,15 @@
                     <h3 class="card-name">Keagan Gonsalves, MSc.</h3>
                     <h4 class="card-title">CEO</h4>
                 </div>
-                <p class="card-text">Keagan Gonsalves is the <em>founder</em> and CEO of Bike Rental Management System. Previously he was an <em>athletic trainer</em> working with several top athletes, making sure that they had the direction and proper coaching to keep them at the <em>top of their game</em>. Keagan’s passion for finding natural alternatives led him to developing Bike Rental Management System. The supplements <em>became a success</em> with his clients and led to the creation of Bike Rental Management System.</p>
-            </div><!-- person-card -->
+                <p class="card-text">
+                    Keagan Gonsalves is the <em>founder</em> and CEO of Bike Rental Management System. 
+                    Previously he was an <em>athletic trainer</em> working with several top athletes, 
+                    making sure that they had the direction and proper coaching to keep them at 
+                    the <em>top of their game</em>. Keagan’s passion for finding natural alternatives 
+                    led him to developing Bike Rental Management System. The supplements <em>became a 
+                    success</em> with his clients and led to the creation of Bike Rental Management System.</p>
+            </div>
+            <!-- person-card -->
 
             <div class="person-card">
                 <img src="images/employees/JessicaNewton.jpg" alt="JessicaNewton Photo">
@@ -121,9 +142,17 @@
                 </div>
             </div>
         </nav>
-        <p class="legal">Bike Rental Management System is a fictitious brand created by Keagan Gonsalves solely for the purpose of carrying out a research with my thesis. All products and people associated with Bike Rental Management System are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
-    </div><!-- container -->
-</footer><!-- footer -->
+        <p class="legal">Bike Rental Management System is a fictitious brand created by 
+            Keagan Gonsalves solely for the purpose of carrying out a research with my thesis. 
+            All products and people associated with Bike Rental Management System are also fictitious. 
+            Any resemblance to real brands, products, or people is purely coincidental. Information 
+            provided about the product is also fictitious and should not be construed to be representative 
+            of actual products on the market in a similar product category.
+        </p>
+    </div>
+    <!-- container -->
+</footer>
+<!-- footer -->
 
 </body>
 </html>
