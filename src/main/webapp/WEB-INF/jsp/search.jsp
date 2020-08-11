@@ -204,8 +204,8 @@
 			<nav class="nav" role="navigation">
 				<div class="container nav-elements">
 					<div class="branding">
-						<a href="#home"><img src="images/hpluslogo.svg"
-							alt="Logo - H Plus Sports"></a>
+						<a href="#home"><img src="images/BikeRentalManagementSystemLogo.svg"
+							alt="Logo - Bike Rental Management System"></a>
 						<p class="address">
 							100 Main Street<br> Seattle, WA 98144
 						</p>
@@ -213,12 +213,12 @@
 				</div>
 			</nav>
 			<p class="card-text">
-                            Keagan Gonsalves is the <em>founder</em> and CEO of Bike Rental Management System. 
-                            Previously he was an <em>athletic trainer</em> working with several top athletes, 
-                            making sure that they had the direction and proper coaching to keep them at 
-                            the <em>top of their game</em>. Keagan?s passion for finding natural alternatives 
-                            led him to developing Bike Rental Management System. The supplements <em>became a 
-                            success</em> with his clients and led to the creation of Bike Rental Management System.
+                            Bike Rental Management System is a fictitious brand created by 
+                            Keagan Gonsalves solely for the purpose of carrying out a research with my thesis. 
+                            All products and people associated with Bike Rental Management System are also fictitious. 
+                            Any resemblance to real brands, products, or people is purely coincidental. Information 
+                            provided about the product is also fictitious and should not be construed to be representative 
+                            of actual products on the market in a similar product category.
                         </p>
 		</div>
 		<!-- container -->

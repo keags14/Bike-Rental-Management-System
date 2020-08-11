@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="css/style.css">
 <meta charset="ISO-8859-1">
-<title>Hplus</title>
+<title>Bike Rental Management System</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header id="home" class="header">
 		<nav class="nav" role="navigation">
 			<div class="container nav-elements">
 				<div class="branding">
-					<a href="#home"><img src="images/hpluslogo.svg"
-						alt="Logo - H Plus Sports"></a>
+					<a href="#home"><img src="images/BikeRentalManagementSystemLogo.svg"
+						alt="Logo - Bike Rental Management System"></a>
 				</div>
 				<!-- branding -->
 				<ul class="navbar">
-					<li><a href="#">home</a></li>
-					<li><a href="#">search</a></li>
+					<li><a href="/home">home</a></li>
+					<li><a href="/gotoSearch">search</a></li>
 					<li><a href="#">linkedIn</a></li>
 				</ul>
 				<!-- navbar -->
@@ -30,15 +31,16 @@
 	</header>
 	<!-- #home -->
 
+        <span class="success">${dataSaved}</span>
    	<section id="login" class="section">
 		<div class="container tagline">
 			<em>LOGIN USER</em>
-			<form action="#" method="post" >
-				<label>Username</label> <input type="text" name="username"/><br />
-			    <label>Password</label> <input type="password" name="password"/><br />
+			<form:form action="/login" method="post" modelAttribute="login">
+				<label>Username</label> <form:input type="text" path="username"/><br />
+                                <label>Password</label> <form:input type="password" path="password"/><br />
 			     <input type="submit" value="Login">
-			</form>
-			 <a class="card-title" href="#">Register new user? Click here</a>
+			</form:form>
+			 <a class="card-title" href="/goToRegistration">Register new user? Click here</a>
 		</div>
 	</section>
 	<!-- #products -->
@@ -50,21 +52,21 @@
 			<nav class="nav" role="navigation">
 				<div class="container nav-elements">
 					<div class="branding">
-						<a href="#home"><img src="images/hpluslogo.svg"
-							alt="Logo - H Plus Sports"></a>
+						<a href="#home"><img src="images/BikeRentalManagementSystemLogo.svg"
+							alt="Logo - Bike Rental Management System"></a>
 						<p class="address">
-							100 Main Street<br> Seattle, WA 98144
+							21 Lark Rise<br> Seattle, Hatfield, AL108AG
 						</p>
 					</div>
 				</div>
 			</nav>
-			<p class="legal">H+ Sport is a fictitious brand created by
-				lynda.com solely for the purpose of training. All products and
-				people associated with H+ Sport are also fictitious. Any resemblance
-				to real brands, products, or people is purely coincidental.
-				Information provided about the product is also fictitious and should
-				not be construed to be representative of actual products on the
-				market in a similar product category.</p>
+			<p class="legal">Bike Rental Management System is a fictitious brand created by 
+                            Keagan Gonsalves solely for the purpose of carrying out a research with my thesis. 
+                            All products and people associated with Bike Rental Management System are also fictitious. 
+                            Any resemblance to real brands, products, or people is purely coincidental. Information 
+                            provided about the product is also fictitious and should not be construed to be representative 
+                            of actual products on the market in a similar product category.
+                        </p>
 		</div>
 		<!-- container -->
 	</footer>
