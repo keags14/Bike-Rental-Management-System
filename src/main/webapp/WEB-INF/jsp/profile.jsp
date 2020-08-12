@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<%@ page contentType="text/html; charset=UTF-8" %>
 <head>
     <meta charset="UTF-8">
     <title>Bike Rental Management System</title>
-  <link rel="stylesheet" href="<spring:theme code='styleSheet'/>" type="text/css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<meta charset="ISO-8859-1">
 </head>
 <body>
 <header id="home" class="header">
@@ -15,16 +13,17 @@
                 <a href="#home"><img src="images/BikeRentalManagementSystemLogo.svg" alt="Logo - Bike Rental Management System"></a>
             </div><!-- branding -->
             <ul class="navbar">
-                <li><a href="/home"><spring:message code="label.home"/></a></li>
-                <li><a href="/goToLogin"><spring:message code="label.login"/></a></li>
-                <li><a href="/goToSearch"><spring:message code="label.search"/></a></li>
-                <li><a href="/redirectToLinkedIn"><spring:message code="label.linkedin"/></a></li>
+                <li><a href="/home">home</a></li>
+                <li><a href="/logout">logout</a></li>
+                <li><a href="/goToSearch">search</a></li>
+                <li><a href="/redirectToLinkedIn">linkedin</a></li>
             </ul><!-- navbar -->
+
         </div><!-- container nav-elements -->
     </nav>
     <div class="container tagline">
         <h1 class="headline">Our Mission</h1>
-        <p>We support and encourage <em>active and healthy</em> lifestyles, by offering <em>ethically sourced</em> and <em>eco-friendly</em> products for <em>everyone</em> to use.</p>
+        <em>Welcome, ${username}</em>
     </div><!-- container tagline -->
 </header><!-- #home -->
 
@@ -32,32 +31,20 @@
     <div class="container">
         <div class="text-content">
             <h2 class="headline">Company History</h2>
-            <p>In 2006, Bike Rental Management System founder <a href="#employees-keagangonsalves">Keagan Gonsalves</a> set 
-                out to create a system that would be <em>environmentally friendly</em> and backed by scientific and 
-                <em>performance data</em> – to provide a strong basis of <em>trust and accountability</em>.</p>
-            <p>His quest began while working for his <em>first technical support role</em>, after graduating 
-                from <em>University of Hertfordshire</em> that left him with some knowledge and expertise required 
-                to develop his vision of developing a bike rental system which supports the environment and supports 
-                recycling. He yearned for <em>simple and natural ingredients</em>, in their purest form, instead of 
-                labels with <em>lengthy chemical names</em> and disclaimers. When no products lived up to his strict 
-                requirements, Henry set his sights on <em>creating products</em> that catered to his own vision.
+            <p>In 2006, Bike Rental Management System founder <a href="#employees-keagangonsalves">Keagan Gonsalves</a> set out to create a system that would be <em>environmentally friendly</em> and backed by scientific and <em>performance data</em> ? to provide a strong basis of <em>trust and accountability</em>.</p>
+            <p>His quest began while working for his <em>first technical support role</em>, after graduating from <em>University of Hertfordshire</em> that left him with some knowledge and expertise required to develop his vision of developing a bike rental system which supports the environment and supports recycling. He yearned for <em>simple and natural ingredients</em>, in their purest form, instead of labels with <em>lengthy chemical names</em> and disclaimers. When no products lived up to his strict requirements, Henry set his sights on <em>creating products</em> that catered to his own vision.
             </p>
-            <p>Today that vision has become Bike Rental Management System…offering a variety of 
-                <a href="#products">bicycle, bike and e-bikes</a>. At the foundation of Bike Rental Management 
-                System are products backed by scientific and performance data.
+            <p>Today that vision has become Bike Rental Management System?offering a variety of <a href="#products">bicycle, bike and e-bikes</a>. At the foundation of Bike Rental Management System are products backed by scientific and performance data.
             </p>
         </div>
-    </div>
-    <!-- container text -->
-</section>
+    </div><!-- container text -->
 
-<!-- #history -->
 
 <section id="guarantee" class="section">
     <header class="imageheader"></header>
     <div class="container">
         <h2 class="headline">Our Guarantee &amp; Ideals</h2>
-        <p>We’re committed to creating products that <em>defy convention</em>, and inspire our customers with pride and trust. In fact, we guarantee <a href="#products">every product</a> we sell. If you’re not 100 percent happy with your purchase, you can return it during the first 2 days, <em>no questions asked</em>.</p>
+        <p>We are committed to creating products that <em>defy convention</em>, and inspire our customers with pride and trust. In fact, we guarantee <a href="#products">every product</a> we sell. If you’re not 100 percent happy with your purchase, you can return it during the first 60 days, <em>no questions asked</em>.</p>
         <p>Philanthropy is extremely important to us. In fact, <em>each employee volunteers</em> for organization of his or her choice, on the clock, for two hours each week. We know that doing good, breeds more doing good, and we’re happy to <em>promote a cycle</em> of volunteerism that just keeps on giving.</p>
     </div>
 </section><!-- guarantee -->
@@ -73,15 +60,8 @@
                     <h3 class="card-name">Keagan Gonsalves, MSc.</h3>
                     <h4 class="card-title">CEO</h4>
                 </div>
-                <p class="card-text">
-                    Keagan Gonsalves is the <em>founder</em> and CEO of Bike Rental Management System. 
-                    Previously he was an <em>athletic trainer</em> working with several top athletes, 
-                    making sure that they had the direction and proper coaching to keep them at 
-                    the <em>top of their game</em>. Keagan’s passion for finding natural alternatives 
-                    led him to developing Bike Rental Management System. The supplements <em>became a 
-                    success</em> with his clients and led to the creation of Bike Rental Management System.</p>
-            </div>
-            <!-- person-card -->
+                <p class="card-text">Keagan Gonsalves is the <em>founder</em> and CEO of Bike Rental Management System. Previously he was an <em>athletic trainer</em> working with several top athletes, making sure that they had the direction and proper coaching to keep them at the <em>top of their game</em>. Keagan?s passion for finding natural alternatives led him to developing Bike Rental Management System. The supplements <em>became a success</em> with his clients and led to the creation of Bike Rental Management System.</p>
+            </div><!-- person-card -->
 
             <div class="person-card">
                 <img src="images/employees/JessicaNewton.jpg" alt="JessicaNewton Photo">
@@ -107,7 +87,7 @@
                     <h3 class="card-name">Maria Sontas</h3>
                     <h4 class="card-title">Director of Marketing</h4>
                 </div>
-                <p class="card-text">Maria Sontas has been with H+ Sport since 2010. She oversees the company’s <em>marketing strategy</em> – ensuring advertising campaigns, social media initiatives, and events are planned to <em>position the company</em> strongly in a competitive marketplace. Maria is a <em>competing triathlete</em> and her passion for our products shows in her unique ability to drive awareness and <em>increase our presence</em> around the world.</p>
+                <p class="card-text">Maria Sontas has been with H+ Sport since 2010. She oversees the company's <em>marketing strategy</em> – ensuring advertising campaigns, social media initiatives, and events are planned to <em>position the company</em> strongly in a competitive marketplace. Maria is a <em>competing triathlete</em> and her passion for our products shows in her unique ability to drive awareness and <em>increase our presence</em> around the world.</p>
             </div><!-- person-card -->
 
             <div class="person-card">
@@ -131,6 +111,21 @@
 </section><!-- people -->
 
 
+<section id="search" class="section">
+    <header class="imageheader"></header>
+    <div class="container">
+        <h2 class="headline">Search Products</h2>
+        <form action="search" method="get">
+            <label class="card-title">Search your product</label>
+            <input type="search" name="search">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+</section><!-- guarantee -->
+
+
+
+
 <footer class="footer">
     <div class="container">
         <nav class="nav" role="navigation">
@@ -148,12 +143,9 @@
             All products and people associated with Bike Rental Management System are also fictitious. 
             Any resemblance to real brands, products, or people is purely coincidental. Information 
             provided about the product is also fictitious and should not be construed to be representative 
-            of actual products on the market in a similar product category.
-        </p>
-    </div>
-    <!-- container -->
-</footer>
-<!-- footer -->
+            of actual products on the market in a similar product category.</p>
+    </div><!-- container -->
+</footer><!-- footer -->
 
 </body>
 </html>

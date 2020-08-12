@@ -1,53 +1,27 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>Bike Rental Management System</title>
-   <link rel="stylesheet" href="css/style.css" type="text/css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+
+    <!-- Custom stlylesheet -->
+    <link rel="stylesheet" href="css/error_style.css" type="text/css"/>
+    
 </head>
 <body>
-<header id="home" class="header">
-    <nav class="nav" role="navigation">
-        <div class="container nav-elements">
-            <div class="branding">
-                <a href="#home"><img src="images/hpluslogo.svg" alt="Logo - H Plus Sports"></a>
-            </div><!-- branding -->
-            <ul class="navbar">
-                <li><a href="/home">home</a></li>
-                <li><a href="/goToLogin">login</a></li>
-                <li><a href="/goToSearch">search</a></li>
-                <li><a href="redirect">linkedin</a></li>
-            </ul><!-- navbar -->
-        </div><!-- container nav-elements -->
-    </nav>
-    <div class="container tagline">
-        <h1 class="headline">Our Mission</h1>
-        <p>We support and encourage <em>active and healthy</em> lifestyles, by offering <em>ethically sourced</em> and <em>eco-friendly</em> nutritional products for the <em>performance-driven</em> athlete.</p>
-    </div><!-- container tagline -->
-</header><!-- #home -->
-<section id="error" class="section">
-<p class = "error">Sorry, dementors have attacked, Professor McGonagall is attending to it:)</p>
-</section>
-<footer class="footer">
-    <div class="container">
-        <nav class="nav" role="navigation">
-            <div class="container nav-elements">
-                <div class="branding">
-                    <a href="#home"><img src="images/BikeRentalManagementSystemLogo.svg" alt="Logo - Bike Rental Management System"></a>
-                    <p class="address">100 Main Street<br>
-                        Seattle, WA 98144
-                    </p>
-                </div>
-            </div>
-        </nav>
-        <p class="legal">Bike Rental Management System is a fictitious brand created by 
-            Keagan Gonsalves solely for the purpose of carrying out a research with my thesis. 
-            All products and people associated with Bike Rental Management System are also fictitious. 
-            Any resemblance to real brands, products, or people is purely coincidental. Information 
-            provided about the product is also fictitious and should not be construed to be representative 
-            of actual products on the market in a similar product category.</p>
-    </div><!-- container -->
-</footer><!-- footer -->
-
+<div id="notfound">
+		<div class="notfound">
+			<div class="notfound-404">
+				<h1>Oops!</h1>
+			</div>
+			<h2>404 - Page not found</h2>
+			<p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
+			<a href="/home">Go To Homepage</a>
+		</div>
+	</div>
 </body>
 </html>
