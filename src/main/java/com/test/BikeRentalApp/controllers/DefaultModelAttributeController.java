@@ -20,6 +20,16 @@ public class DefaultModelAttributeController {
     public List<String> getGenderItems(){
         return Arrays.asList(new String[]{"Male", "Female", "Other"});
     }
+    
+    @ModelAttribute("userRole")
+    public List<String> getUserRoles(){
+        return Arrays.asList(new String[]{"Admin", "Supplier", "Customer"});
+    }
+    
+    @ModelAttribute("categories")
+    public List<String> getCategories(){
+        return Arrays.asList(new String[]{"Bike", "Bike helmets", "Accessories"});
+    }
 
     @ModelAttribute("login")
     public Login getDefaultLogin(){

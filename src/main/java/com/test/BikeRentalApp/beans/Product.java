@@ -5,6 +5,7 @@
  */
 package com.test.BikeRentalApp.beans;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -18,6 +19,11 @@ public class Product {
     private int id;
     private String name;
     private String imagePath;
+    
+    @Column(name = "priceperminute")
+    private float pricePerMinute;
+    
+    private String description;
 
     public int getId() {
         return id;
@@ -41,5 +47,21 @@ public class Product {
 
     public void setImagePath(String imagePath) {
         this.imagePath = imagePath;
+    }
+
+    public float getPricePerMinute() {
+        return pricePerMinute;
+    }
+
+    public void setPricePerMinute(float pricePerMinute) {
+        this.pricePerMinute = pricePerMinute;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

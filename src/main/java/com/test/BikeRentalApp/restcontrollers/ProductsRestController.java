@@ -34,7 +34,7 @@ public class ProductsRestController {
         return new ResponseEntity<>(products, HttpStatus.OK);
     }
     
-    @GetMapping("/hplus/rest/products/{name}")
+    @GetMapping("/BikeRentalApp/rest/products/{name}")
     public ResponseEntity getProductsByPathVariable(@PathVariable("name") String name){
       List<Product> products = productRepository.searchByName(name);
       return new ResponseEntity<>(products, HttpStatus.OK);
