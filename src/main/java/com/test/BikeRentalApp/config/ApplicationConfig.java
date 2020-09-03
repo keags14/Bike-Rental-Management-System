@@ -8,6 +8,7 @@ package com.test.BikeRentalApp.config;
 import com.test.BikeRentalApp.convertors.stringToEnumConvertor;
 import com.test.BikeRentalApp.interceptors.LoggingInterceptor;
 import java.util.Locale;
+import javax.sql.DataSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

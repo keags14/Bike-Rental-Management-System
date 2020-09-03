@@ -39,6 +39,7 @@
 				<label>Username</label> <form:input type="text" path="username"/><br />
                                 <label>Password</label> <form:input type="password" path="password"/><br />
 			     <input type="submit" value="Login">
+                             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 			</form:form>
 			 <a class="card-title" href="/goToRegistration">Register new user? Click here</a>
 		</div>

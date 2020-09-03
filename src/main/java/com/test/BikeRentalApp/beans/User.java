@@ -1,10 +1,12 @@
 package com.test.BikeRentalApp.beans;
 
 import java.util.Date;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
@@ -36,6 +38,8 @@ public class User {
     private String firstName;
     private String lastName;
     private Date dateOfBirth;
+    private String role;
+    private boolean active;
     
     public int getId() {
         return id;
@@ -99,5 +103,21 @@ public class User {
 
     public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean isActive) {
+        this.active = active;
     }
 }

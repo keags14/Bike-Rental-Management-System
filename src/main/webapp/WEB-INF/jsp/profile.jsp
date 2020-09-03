@@ -5,32 +5,13 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header id="home" class="header">
-    <nav class="nav" role="navigation">
-        <div class="container nav-elements">
-            <div class="branding">
-                <a href="#home"><img src="images/BikeRentalManagementSystemLogo.svg" alt="Logo - Bike Rental Management System"></a>
-            </div><!-- branding -->
-            <ul class="navbar">
-                <li><a href="/home">home</a></li>
-                <li><a href="/logout">logout</a></li>
-                <li><a href="/goToSearch">search</a></li>
-                <li><a href="/redirectToLinkedIn">linkedin</a></li>
-            </ul><!-- navbar -->
-
-        </div><!-- container nav-elements -->
-    </nav>
-    <div class="container tagline">
-        <h1 class="headline">Our Mission</h1>
-        <em>Welcome, ${username}</em>
-    </div><!-- container tagline -->
-</header><!-- #home -->
+<%@include file = "header.jsp" %>
 
 <%@include file = "history.jsp" %>
 
 <%@include file = "people.jsp" %>
 
-
+<em>Welcome ${username}</em>
 <section id="search" class="section">
     <header class="imageheader"></header>
     <div class="container">
@@ -43,10 +24,6 @@
     </div>
 </section><!-- guarantee -->
 
-
-
-
 <%@include file = "footer.jsp" %>
-
 </body>
 </html>

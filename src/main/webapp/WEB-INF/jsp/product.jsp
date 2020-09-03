@@ -17,14 +17,14 @@
         <c:if test="${!empty(product)}">
             <section class="section">
                 <div class="productContainerItem">
-                    <form>
+                    <form action="/show">
                     <img id="pic1" src="../${product.imagePath}">
-                        <em>Product Details</em>
-                        <em>ID: </em><input type="text" name="product" value="${product.id}"><br />
-                        <em>Name: </em><input type="text" name="product" value="${product.name}"><br />
-                        <em>Description: </em><input type="text" name="product" value="${product.description}"><br />
-                        <em>Rental Price (per minute)</em><input type="text" name="product" value="${product.pricePerMinute}"><br />
-                        <input type="submit" value="Rent">
+                        <em>Product Details</em><br />
+                        <em>ID: </em><input type="text" name="productid" value="${product.id}" readonly><br />
+                        <em>Name: </em><input type="text" name="name" value="${product.name}" readonly><br />
+                        <em>Description: </em><input type="text" name="description" value="${product.description}" readonly><br />
+                        <em>Rental Price (per minute)</em><input type="text" name="priceperminute" value="${product.pricePerMinute}" readonly><br />
+                        <input type="submit" value="add to basket">
                     </form>
                 </div>
 

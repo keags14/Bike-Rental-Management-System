@@ -15,12 +15,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.SessionAttributes;
 
 /**
  *
  * @author Keagan Nigel Gonsalves <kg19aaj@herts.ac.uk>
  */
 @Controller
+@SessionAttributes("product")
 public class ProductController {
     @Autowired
     private ProductRepository productRepository;
@@ -31,7 +33,7 @@ public class ProductController {
     @GetMapping("/product/{name}")
     public String goToProduct(@PathVariable("name") String name, Model model, HttpServletRequest request){
         System.out.println("in product controller");
-        System.out.println("You selected product: " + name);
+        System.out.println("Product user selected is " + name);
         
         Product product = new Product();
         

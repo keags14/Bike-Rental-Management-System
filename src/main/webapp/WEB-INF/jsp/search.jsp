@@ -27,11 +27,15 @@
                     
                         <div class="productContainer">
 
-                        <div class="productContainerItem">
-                                <img id="pic1" src="${product.imagePath}">
-                                <a href="product/${product.name}">
-                                    <input path="product" type="text" name="product" value="${product.name}"></a><br />
-                        </div>
+                            <a href="product/${product.name}">
+                                <div class="productContainerItem">
+                                        <img id="pic1" src="${product.imagePath}">
+
+                                            <input path="product" type="text" name="product" value="${product.name}">
+
+                                        <br />
+                                </div>
+                            </a>
 
                 </c:forEach>
             		</div>
